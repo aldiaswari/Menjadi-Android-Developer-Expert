@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cuplix</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_movie">Movie</string>
+    <string name="what_would_">What would you like to watch?</string>
+    <string name="search">Search...</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_movie">Movie</string>
+    <string name="bookmark">Favorite</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="recomended_for_you">Recommended For You</string>
+    <string name="description">Description</string>
+    <string name="release">release</string>
+    <string name="favorite">favorite</string>
+    <string name="no_data">Tidak dapat ditemukan!</string>
+    <string name="baseUrlImage">http://image.tmdb.org/t/p/w500%s</string>
+    <string name="checkconnection">No Connection!</string>
+    <string name="noconnection">Pastikan terhubung ke internet anda!</string>
+    <string name="ok">Ok</string>
+</resources>
