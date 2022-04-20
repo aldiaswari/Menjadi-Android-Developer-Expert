@@ -14,7 +14,7 @@ import kotlinx.coroutines.FlowPreview
 
 @FlowPreview
 @ExperimentalCoroutinesApi
-
+@AndroidEntryPoint
 class SplashActivity : AppCompatActivity() {
 
     private val delay: Int = 3000
