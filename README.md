@@ -1,4 +1,4 @@
 # Cuplix
 Submission Dicoding - Menjadi Android Developer Expert
 
-#submission Dicoding - Menjadi Android Developer Expert (MADE)
+Aplikasi ini menampilkan movie dengan API TMDB
