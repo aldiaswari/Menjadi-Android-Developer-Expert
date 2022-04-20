@@ -18,6 +18,7 @@ import com.cuplix.cupita.details.DetailsActivity
 import com.cuplix.cupita.di.FavoriteModuleDependencies
 import com.cuplix.favorite.databinding.FragmentFavoriteBinding
 import com.cuplix.favorite.di.DaggerFavoriteModule
+import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.EntryPointAccessors
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
@@ -27,6 +28,7 @@ import javax.inject.Inject
 
 @ExperimentalCoroutinesApi
 @FlowPreview
+@AndroidEntryPoint
 class FavoriteFragment : Fragment() {
     @Inject
     lateinit var viewModelFactory: ViewModelFactory
