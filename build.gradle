@@ -38,6 +38,7 @@ buildscript {
 
     ext.hilt_version = '2.36'
     ext.hilt_jetpack_version = '1.0.0-alpha03'
+    ext.hilt_compiler = '1.0.0'
     ext.roundedImageVersion = '2.3.0'
     repositories {
         google()

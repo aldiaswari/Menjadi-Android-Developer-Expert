@@ -19,7 +19,7 @@ class DatabaseModule {
     @Provides
     fun provideDatabase(@ApplicationContext context: Context): MovieDatabase = Room.databaseBuilder(
         context,
-        MovieDatabase::class.java, "Movie.db"
+       MovieDatabase::class.java, "Movie.db"
     ).fallbackToDestructiveMigration().build()
 
     @Provides

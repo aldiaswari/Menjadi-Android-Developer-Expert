@@ -39,7 +39,7 @@ object DataMapper {
                 it.releaseDate,
                 it.popularity,
                 it.voteAverage,
-                isFavorite = false,
+                isFavorite = it.isFavorite,
             )
         }
     }
@@ -56,7 +56,6 @@ object DataMapper {
             input.releaseDate,
             input.popularity,
             input.voteAverage,
-            isFavorite = false,
-        )
+            isFavorite = input.isFavorite        )
     }
 }

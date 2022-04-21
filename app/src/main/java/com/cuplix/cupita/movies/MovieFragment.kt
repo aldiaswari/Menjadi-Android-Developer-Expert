@@ -20,11 +20,7 @@ import com.cuplix.cupita.databinding.FragmentMovieBinding
 import com.cuplix.cupita.databinding.LayoutMovieBinding
 import com.cuplix.cupita.details.DetailsActivity
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.FlowPreview
 
-@FlowPreview
-@ExperimentalCoroutinesApi
 @AndroidEntryPoint
 class MovieFragment : Fragment() {
 
@@ -49,11 +45,13 @@ class MovieFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         setupMovie()
         observeMovie()
         observeSearchQuery()
         setSearchList()
         setRefresh()
+
     }
 
     private fun setRefresh() {
@@ -75,10 +73,10 @@ class MovieFragment : Fragment() {
             adapter = movieAdapter
         }
 
-        movieAdapter.onItemClick = { selectedData ->
-            val intent = Intent(activity, DetailsActivity::class.java)
-            intent.putExtra(DetailsActivity.EXTRA_MOVIE, selectedData)
-            startActivity(intent)
+        movieAdapter.onItemClick = { movie ->
+            startActivity(Intent(requireContext(), DetailsActivity::class.java).also {
+                it.putExtra(DetailsActivity.EXTRA_MOVIE, movie)
+            })
         }
 
     }
@@ -145,6 +143,8 @@ class MovieFragment : Fragment() {
                 return true
             }
         })
+
+
     }
 
     override fun onDestroyView() {

@@ -1,11 +1,11 @@
 plugins {
     id 'com.android.dynamic-feature'
     id 'kotlin-android'
-    id 'kotlin-parcelize'
     id 'kotlin-kapt'
 }
 
 apply from: '../shared_dependencies.gradle'
+
 android {
     compileSdkVersion 31
     buildToolsVersion "31.0.0"

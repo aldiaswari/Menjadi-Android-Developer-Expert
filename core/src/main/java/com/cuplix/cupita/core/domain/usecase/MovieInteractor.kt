@@ -18,7 +18,6 @@ class MovieInteractor @Inject constructor(private val iMovieRepository: IMovieRe
     override fun getSearchMovies(search: String): Flow<List<Movie>> =
         iMovieRepository.getSearchMovies(search)
 
-
     override fun setMovieFavorite(movie: Movie, state: Boolean) =
         iMovieRepository.setMovieFavorite(movie, state)
 

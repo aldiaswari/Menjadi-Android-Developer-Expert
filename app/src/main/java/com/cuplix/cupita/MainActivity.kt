@@ -10,11 +10,8 @@ import com.cuplix.cupita.core.utils.CheckNetworkConnection
 import com.cuplix.cupita.databinding.ActivityMainBinding
 import com.cuplix.cupita.movies.MovieFragment
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.FlowPreview
 
-@ExperimentalCoroutinesApi
-@FlowPreview
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 

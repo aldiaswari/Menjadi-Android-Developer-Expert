@@ -51,11 +51,16 @@ class MovieAdapter :
                 tvTitle.text = movie.title
                 tvDesc.text = movie.overview
                 tvRealeseDate.text = movie.releaseDate
-                itemView.setOnClickListener {
-                    onItemClick?.invoke(listData[adapterPosition])
-                }
+
             }
         }
+
+        init {
+            binding.root.setOnClickListener {
+                onItemClick?.invoke(listData[adapterPosition])
+            }
+        }
+
     }
 
 

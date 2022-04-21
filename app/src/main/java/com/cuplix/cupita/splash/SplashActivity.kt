@@ -1,20 +1,14 @@
 package com.cuplix.cupita.splash
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import com.cuplix.cupita.MainActivity
-import com.cuplix.cupita.R
 import com.cuplix.cupita.databinding.ActivitySplashBinding
-import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.FlowPreview
 
-@FlowPreview
-@ExperimentalCoroutinesApi
-@AndroidEntryPoint
+
 class SplashActivity : AppCompatActivity() {
 
     private val delay: Int = 3000
