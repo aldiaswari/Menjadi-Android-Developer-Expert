@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     executor: android/android
-    s./teps:
+    steps:
       - checkout
       - restore_cache:
           key: android-orb-v1-
