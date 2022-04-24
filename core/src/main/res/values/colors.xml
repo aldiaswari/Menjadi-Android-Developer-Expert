@@ -11,4 +11,6 @@
     <color name="colorAccent">#52a2f7</color>
     <color name="colorRating">#FBC02D</color>
     <color name="gray">#807B7A</color>
+    <color name="colorGray">#3F3E3E</color>
+    <color name="secondaryTextColor">#273443</color>
 </resources>
