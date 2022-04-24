@@ -19,5 +19,5 @@
     <string name="baseUrlImage">http://image.tmdb.org/t/p/w500%s</string>
     <string name="checkconnection">No Connection!</string>
     <string name="noconnection">Pastikan terhubung ke internet anda!</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
 </resources>
