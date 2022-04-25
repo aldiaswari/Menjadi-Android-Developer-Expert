@@ -1,5 +1,7 @@
 # Cuplix
 Submission Dicoding - Menjadi Android Developer Expert
 
-Aplikasi ini menampilkan movie dengan API TMDB
-dan push to GIT with CI Tools
+Aplikasi ini menampilkan movie
+Name app : CUPLIX
+
+[![dapoi](https://app.circleci.com/pipelines/gh/aldiaswari/Menjadi-Android-Developer-Expert.svg?style=svg)](https://app.circleci.com/pipelines/github/aldiaswari/Menjadi-Android-Developer-Expert)
